@@ -56,17 +56,17 @@ ii. Uses revert() to abort the transaction with a custom error message if the re
 
 Behavior: Decreases the balance by the specified amount if sufficient funds are available.
 
-< reset()
+<> reset()
 
 Purpose: Resets the contract's balance to zero.
 
-Error Handling:
+> Error Handling:
 
 Uses require() to ensure the caller is the owner.
 
 Behavior: Sets the balance to zero directly, allowing the balance to be reset under any condition.
 
-< getBalance()
+<> getBalance()
 
 Purpose: Provides the current balance of the contract.
 
