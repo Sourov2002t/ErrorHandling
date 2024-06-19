@@ -103,7 +103,7 @@ deploy your ErrorHandling smart contract is made easy with the following step-by
 
 1. Access Remix IDE
    
-  > Open Remix: Go to the link (https://remix.ethereum.org/) in your web browser.
+     > Open Remix: Go to the link (https://remix.ethereum.org/) in your web browser.
 
 2. Create a New File
 
@@ -137,9 +137,9 @@ deploy your ErrorHandling smart contract is made easy with the following step-by
    
 6. Interact with the Deployed Contract
 
-  > Access the Contract Interface: Once deployed, see contract under the Deployed Contracts section.
+   > Access the Contract Interface: Once deployed, see contract under the Deployed Contracts section.
 
-  > Expand the Contract: Click on the contract instance to see available functions.
+   > Expand the Contract: Click on the contract instance to see available functions.
 
 7. Execute Functions
    
