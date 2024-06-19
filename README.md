@@ -143,35 +143,35 @@ deploy your ErrorHandling smart contract is made easy with the following step-by
 
 7. Execute Functions
    
-i. Deposit Funds:
+   i. Deposit Funds:
 
-Function: deposit
+      Function: deposit
 
-Input: Enter an amount click transact.
+      Input: Enter an amount click transact.
 
-ii. Withdraw Funds:
+   ii. Withdraw Funds:
 
-Function: withdraw
+     Function: withdraw
 
-Input: Enter an amount to withdraw, click transact.
+     Input: Enter an amount to withdraw, click transact.
 
-iii. Emergency Withdraw:
+   iii. Emergency Withdraw:
 
-Function: emergencyWithdraw
+      Function: emergencyWithdraw
 
-Input: Enter an amount for emergency withdrawal, click transact.
+     Input: Enter an amount for emergency withdrawal, click transact.
 
-iv. Reset Balance:
+   iv. Reset Balance:
 
-Function: reset
+     Function: reset
 
-Click: Click transact to reset the balance to zero.
+     Click: Click transact to reset the balance to zero.
 
-v. Check Balance:
+   v. Check Balance:
 
-Function: getBalance
+     Function: getBalance
 
-Click: Click call to see the current balance.
+     Click: Click call to see the current balance.
 
 8. Monitor Transactions
 
