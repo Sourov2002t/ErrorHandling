@@ -93,3 +93,91 @@ Behavior: Returns the value of the balance for viewing purposes.
        Used to explicitly abort a transaction with a specific error message.
    
        Provides custom error messages in emergencyWithdraw when the requested withdrawal amount exceeds the available balance.
+
+
+# Starting Execution :
+A Solidity smart contract may be constructed and interacted with through a sequence of stages using Remix. Using the Remix IDE to compile and
+deploy your ErrorHandling smart contract is made easy with the following step-by-step instructions:
+
+## Step-by-Step Guide to Using Remix IDE
+
+1. Access Remix IDE
+   
+  > Open Remix: Go to the link (https://remix.ethereum.org/) in your web browser.
+
+2. Create a New File
+
+    > Navigate to File Explorer: Click on the File Explorer icon on the left panel.
+    
+    > Create a New File: Click on the New File icon .
+   
+    > Name the File: Enter a name for your Solidity file (projectcode.sol) and press Enter.
+    
+3. Write or Paste Your Contract Code
+
+   > Open the File: Click on the newly created file to open the editor.
+
+   > Paste the Code: Copy the following ErrorHandling contract code ().
+
+4. Compile the Contract
+
+    > Navigate to the Solidity Compiler: Click on the Solidity Compiler icon on the left panel .
+    
+    > Select the Compiler Version: Ensure the compiler version is set to a version compatible with your contract (pragma solidity ^0.8.9 ).
+ 
+    > Compile the Contract: Click the Compile projectcode.sol button. If there are no errors, the contract will compile successfully.
+    
+5. Deploy the Contract
+
+   > Navigate to Deploy & Run Transactions: Click on the Deploy & Run Transactions icon on the left panel .
+   
+   > Select the Environment: Choose the environment for deployment [Remix VM(London)] for a local test environment.
+   
+   > Deploy: In the Deploy section, ensure ErrorHandling is selected. Click the Deploy button.
+   
+6. Interact with the Deployed Contract
+
+  > Access the Contract Interface: Once deployed, see contract under the Deployed Contracts section.
+
+  > Expand the Contract: Click on the contract instance to see available functions.
+
+7. Execute Functions
+   
+i. Deposit Funds:
+
+Function: deposit
+
+Input: Enter an amount click transact.
+
+ii. Withdraw Funds:
+
+Function: withdraw
+
+Input: Enter an amount to withdraw, click transact.
+
+iii. Emergency Withdraw:
+
+Function: emergencyWithdraw
+
+Input: Enter an amount for emergency withdrawal, click transact.
+
+iv. Reset Balance:
+
+Function: reset
+
+Click: Click transact to reset the balance to zero.
+
+v. Check Balance:
+
+Function: getBalance
+
+Click: Click call to see the current balance.
+
+8. Monitor Transactions
+
+    > Check Transaction Results: Monitor the Remix console (bottom of the interface) for transaction details and confirmations.
+    
+9. Test Scenarios
+
+   > Verify Access Control: Attempt operations from a different address to ensure non-owners cannot perform owner-only actions.
+   > Handle Errors: Test error conditions such as withdrawing more than the balance to see how the contract handles these scenarios.
