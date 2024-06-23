@@ -184,7 +184,9 @@ deploy your ErrorHandling smart contract is made easy with the following step-by
 
 # Authers : 
    > Sourov Kumar Nandi
+
    > Github : https://github.com/Sourov2002t
+
    > LinkeIn : https://www.linkedin.com/in/sourov-kumar-nandi-77292924b
 
 # License :
