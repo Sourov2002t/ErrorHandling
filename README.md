@@ -117,7 +117,7 @@ deploy your ErrorHandling smart contract is made easy with the following step-by
 
    > Open the File: Click on the newly created file to open the editor.
 
-   > Paste the Code: Copy the following ErrorHandling contract code ().
+   > Paste the Code: Copy the following ErrorHandling contract code ( https://github.com/Sourov2002t/ErrorHandling/blob/main/project.sol ).
 
 4. Compile the Contract
 
