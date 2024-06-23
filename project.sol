@@ -40,7 +40,7 @@ contract ErrorHandling {
         require(msg.sender == me, "Emergency withdraw failed ");
 
         if (amount > balance) {
-            revert("not enough balance");
+            revert("Sorry, not enough balance");
         }
 
         balance -= amount;
